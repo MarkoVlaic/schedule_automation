@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Schedule</title>
+
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <script type="module" src="../scripts/main.js"></script>
+    <div id="main-container">
+        <nav>
+            <a href="./individuals.html">Get individuals</a>
+            <a href="./overlaping.html">No overlaping</a>
+        </nav>
+        <div id="table-container">
+            <table id="schedule"></table>
+        </div>
+        <div id="btn-container">
+            <button id="upload">Upload students</button>
+            <button id="set">Set schedule</button>
+        </div>
+    </div>
+
+    <input type="file" name="file" id="file-input">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+    <script type="module" src="../scripts/ui/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#student-container {
+    height: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 100vh; 
+}
+
+td {
+    min-width: 100px;
+    text-align: center;
+    background: rgba(223, 214, 214, 0.8);
+}
+
+.shaded {
+    background: rgba(158, 148, 148, 0.8);
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    text-align: center;
+    -webkit-appearance: none; 
+    appearance: none;
+
+    background: rgba(223, 214, 214, 0.9);
+    border: 1px solid rgb(223, 214, 214);
+    border-radius: 5px;
+    padding: 5px 3px;
+    outline: none;
+    color: black;
+    margin: 2px;
+}
+
+button:hover {
+    background: rgba(223, 214, 214, 0.5);
+    cursor: pointer;
+    transform: scale(1.04);
+}
+
+/*
+#student-list {
+    flex: 0 1 300px;
+}
+
+#table-container {
+    flex: 1 0 auto;
+} */
